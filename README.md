@@ -34,13 +34,14 @@ As presented in Figure below, the evolution of multi-modal research paradigms co
     <img src="./assets/research_evolution.png" width="80%" height="80%">
 </p>
 
-For readers to have a general picture about the development, we provide a [tutorial pptx](https://github.com/FudanDISC/Awesome-Large-Multimodal-Models/blob/main/asset/tutorial.pdf) here. The contents are summarized as follows:
+For readers to have a general picture about the development, we provide a tutorial here. The contents are summarized as follows:
 
-* Page 1-19: Vision-Language Pre-Training
-* Page 20-48: Architectures and Traning of LMMs
-* Page 49-69: Evaluation of LMMs
-* Page 70-86: Further Capability of LMMs 
-* Page 87-100: Extension to Embodied Agents
+* Part 1: [Vision-Language Pre-Training](https://github.com/FudanDISC/Awesome-Large-Multimodal-Models/blob/main/asset/tutorial-part1.pdf)
+* Part 2: [Architectures and Traning of LMMs]((https://github.com/FudanDISC/Awesome-Large-Multimodal-Models/blob/main/asset/tutorial-part2.pdf))
+* Part 3: [Evaluation of LMMs](https://github.com/FudanDISC/Awesome-Large-Multimodal-Models/blob/main/asset/tutorial-part3.pdf)
+* Part 4: [Further Capability of LMMs](https://github.com/FudanDISC/Awesome-Large-Multimodal-Models/blob/main/asset/tutorial-part4.pdf)
+* Part 5: [Extension to Embodied Agents](https://github.com/FudanDISC/Awesome-Large-Multimodal-Models/blob/main/asset/tutorial-part5.pdf)
+
 
 
 
