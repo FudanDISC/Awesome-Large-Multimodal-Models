@@ -14,12 +14,32 @@ This repo summarizes the current methods of LMM construction from the perspectiv
 
 
 ## Table of Contents
+- [Preliminary](#preliminary)
 - [Awesome Models](#awesome-models)
   - [Large Vision-Language Models](#large-vision-language-models)
     - [With Text-only Output](#with-text-only-output)
     - [With Vision and Text Output](#with-vision-and-text-output)
   - [Large Audio-Language Models](#large-audio-language-models)
   - [Any Modality Models](#any-modality-models)
+
+
+
+# Preliminary
+
+As presented in Figure below, the evolution of multi-modal research paradigms could be divided into three stages. 
+
+<p align="center">
+    <img src="./assets/research_evolution.png" width="80%" height="80%">
+</p>
+
+For readers to have a general picture about the development, we provide a **[tutorial pptx]((https://github.com/FudanDISC/Awesome-Large-Multimodal-Models/blob/main/asset/tutorial.pdf) )** here. The contents are summarized as follows:
+
+* Page 1-19: Vision-Language Pre-Training
+* Page 20-48: Architectures and Traning of LMMs
+* Page 49-69: Evaluation of LMMs
+* Page 70-86: Further Capability of LMMs 
+* Page 87-100: Extension to Embodied Agents
+
 
 
 
@@ -141,7 +161,7 @@ This repo summarizes the current methods of LMM construction from the perspectiv
 
 ## Any Modality Models
 
-| **Any_Modality_Model** | **Code** | **Input Type** | **Output Type** | **Output Modality** | **Backbone**| **Modality Encoder**| **Modality Decoder** | **Date** |
+|  **Any_Modality_Model** | **Code** | **Input Type** | **Output Type** | **Output Modality** | **Backbone**| **Modality Encoder**| **Modality Decoder** | **Date** |
 | :--------------------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: |
 | [PandaGPT: One Model To Instruction-Follow Them All](https://arxiv.org/abs/2305.16355) |[Github](https://github.com/yxuansu/PandaGPT)| A| 1 | Text | Vicuna| ImageBind | -| 2023/05|
 | [ImageBind-LLM: Multi-modality Instruction Tuning](https://arxiv.org/abs/2309.03905) |[Github](https://github.com/OpenGVLab/LLaMA-Adapter/tree/main/imagebind_LLM)| A| 1 | Text | Chinese-LLaMA | ImageBind + PointBind | -| 2023/09|
