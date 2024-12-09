@@ -2,11 +2,9 @@
 <div align="center">
   <h1 style="display: inline-block; font-size: 32px;">Awesome-Large-Multimodal-Models</h1>
 </div>
-
 This repo summarizes the construction of current LMMs from the perspective of 
+
 <center><b><i>input-output representation space extension</i></b></center>
-
-
 
 * Based on the structure of input-output spaces, we systematically review the existing models, including main-stream models based on discrete-continuous hybrid spaces and models with unified multi-modal discrete representations. 
 * Readers can refer to our [[📖 Preprint Paper](https://www.preprints.org/manuscript/202411.0685)] for detailed explanations.
