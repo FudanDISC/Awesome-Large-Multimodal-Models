@@ -4,7 +4,7 @@
 </div>
 This repo summarizes the construction of current LMMs from the perspective of 
 
-<center><b><i>input-output representation space extension</i></b></center>
+<p style="text-align: center"><b><i>input-output representation space extension</i></b></p>
 
 * Based on the structure of input-output spaces, we systematically review the existing models, including main-stream models based on discrete-continuous hybrid spaces and models with unified multi-modal discrete representations. 
 * Readers can refer to our [[📖 Preprint Paper](https://www.preprints.org/manuscript/202411.0685)] for detailed explanations.
