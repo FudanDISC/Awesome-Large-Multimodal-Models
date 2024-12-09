@@ -9,7 +9,7 @@ This repo summarizes the current methods of LMM construction from the perspectiv
 
 
 <p align="center">
-    <img src="./assets/introduction.png" width="60%" height="60%">
+    <img src="./assets/introduction.png" width="80%" height="80%">
 </p>
 
 
@@ -29,8 +29,8 @@ This repo summarizes the current methods of LMM construction from the perspectiv
 
 ### With Text-only Output
 
-| **Model**| **Code** | **Input Type** | **Output Type** | **LLM Backbone** | **Modality Encoder** | **Connection** | **Max** **Res.** | **Date** |
-| :----------: | :--------: | :----------------: | :----: | :---: | :----------------: | :--------: | :--------: | :--------: |
+|   **Model**  | **Code** | **Input Type** | **Output Type** | **LLM Backbone** | **Modality Encoder** | **Connection** | **Max** **Res.** | **Date** |
+| :--------------------: | :--------: | :----------------: | :----: | :---: | :----------------: | :--------: | :--------: | :--------: |
 | [Flamingo: a Visual Language Model for Few-Shot Learning](https://arxiv.org/abs/2204.14198) |[Github](https://github.com/lucidrains/flamingo-pytorch)|A|1| Chinchilla| NFNet| Perceiver| 480| 2022/04|
 | [BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models](https://arxiv.org/abs/2301.12597) |[Github](https://github.com/salesforce/LAVIS/tree/main/projects/blip2)|A|1| Flan-T5 / OPT | CLIP ViT-L/14 / Eva-CLIP ViT-G/14| Q-Former | 224| 2023/01|
 | [LLaMA-Adapter: Efficient Fine-tuning of Language Models with Zero-init Attention](https://arxiv.org/abs/2303.16199)|[Github](https://github.com/OpenGVLab/LLaMA-Adapter)|A|1| LLaMA | CLIP-ViT-L/14| MLP| 224| 2023/03|
@@ -105,7 +105,7 @@ This repo summarizes the current methods of LMM construction from the perspectiv
 ### With Vision and Text Output
 
 | **Model**| **Code** | **Input Type** | **Output Type** | **LLM Backbone** | **Modality Encoder** | **Modality Decoder** | **Date** |
-| :----------------: | :----: | :----------------: | :-----------------------------------: | :-------------------: | :-------: | :-------: | :-------: |
+| :--------------------: | :----: | :----------------: | :-----------------------------------: | :-------------------: | :-------: | :-------: | :-------: |
 | [GILL: Generating Images with Multimodal Language Models](https://arxiv.org/abs/2305.17216) |[Github](https://github.com/kohjingyu/gill)|A|2| OPT| CLIP ViT-L| SD| 2023/05 |
 | [Emu: Generative Pretraining in Multimodality](https://arxiv.org/abs/2307.05222) |[Github](https://github.com/baaivision/Emu)|A|2| LLaMA| EVA-02-CLIP-1B| SD| 2023/07 |
 | [LaVIT: Unified Language-Vision Pretraining in LLM with Dynamic Discrete Visual Tokenization](https://arxiv.org/abs/2309.04669) |[Github](https://github.com/jy0205/LaVIT)|A|3| LLaMA| Eva-CLIP ViT-G/14 + LaVIT Tokenizer | LaVIT D e-Tokenizer | 2023/09 |
@@ -124,7 +124,7 @@ This repo summarizes the current methods of LMM construction from the perspectiv
 ## Large Audio-Language Models
 
 | **Model** | **Code** | **Input Type** | **Output Type** | **Output Modality** | **Backbone** | **Modality Encoder** | **Modality Decoder** | **Date** |
-| :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: |
+| :--------------------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: |
 | [SpeechGPT: Empowering Large Language Models with Intrinsic Cross-Modal Conversational Abilities](https://arxiv.org/abs/2305.11000) | [Github](https://github.com/0nutation/SpeechGPT) | B| 3 | Text, Audio | LLaMA| HuBERT| Unit Vocoder | 2023/05|
 | [Speech-LLaMA: On decoder-only architecture for speech-to-text and large language model integration](https://arxiv.org/abs/2307.03917) | - | A| 1 | Text| LLaMA| CTC compressor| -| 2023/07|
 | [SALMONN: Towards Generic Hearing Abilities for Large Language Models](https://arxiv.org/abs/2310.13289) | [Github](https://github.com/bytedance/SALMONN) | A| 1 | Text| Vicuna | Whisper-Large-v2 + BEATs| -| 2023/10|
@@ -142,7 +142,7 @@ This repo summarizes the current methods of LMM construction from the perspectiv
 ## Any Modality Models
 
 | **Model** | **Code** | **Input Type** | **Output Type** | **Output Modality** | **Backbone**| **Modality Encoder**| **Modality Decoder** | **Date** |
-| :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: |
+| :--------------------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: |
 | [PandaGPT: One Model To Instruction-Follow Them All](https://arxiv.org/abs/2305.16355) |[Github](https://github.com/yxuansu/PandaGPT)| A| 1 | Text | Vicuna| ImageBind | -| 2023/05|
 | [ImageBind-LLM: Multi-modality Instruction Tuning](https://arxiv.org/abs/2309.03905) |[Github](https://github.com/OpenGVLab/LLaMA-Adapter/tree/main/imagebind_LLM)| A| 1 | Text | Chinese-LLaMA | ImageBind + PointBind | -| 2023/09|
 | [NExT-GPT: Any-to-Any Multimodal LLM](https://arxiv.org/abs/2309.05519) |[Github](https://github.com/NExT-GPT/NExT-GPT)| A| 2 | Text, Vision, Audio | Vicuna| ImageBind | SD + AudioLDM + Zeriscope| 2023/09|
