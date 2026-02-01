@@ -49,23 +49,23 @@ For readers to have a general picture about the development, we provide a tutori
 - 🗂️ **Original Table:** [Google Sheets Link ⭐](https://docs.google.com/spreadsheets/d/1KkaqTO9c5eJQdVdpDWPrb4SmO8mJ55NEk159epA9X4o/edit?usp=sharing)
 - ⚙️ **Model Training Settings Table:** [Google Sheets Link ⭐](https://docs.google.com/spreadsheets/d/1hMlhT_MzItdgiYt1XWUB3GoWEmK5jAr_eYzcFx2lM9w/edit?usp=sharing)
 
-**Input Type**
-> Type A: Discrete Text Token + Continuous 🖼️🔊🧊 Feature
-
-> Type B: Discrete Text Token + Discrete 🖼️🔊🧊 Token
-
-**Output Type**
-> Type 1: Discrete Text Token Only
-
-> Type 2: Discrete Text Token + Continuous 🖼️🔊🧊 Feature
-
-> Type 3: Discrete Text Token + Discrete 🖼️🔊🧊 Token
-
 **Modality**
 > Text: 📝
 > Vision: 🖼️
 > Audio: 🔊
 > 3D: 🧊
+
+**Input Type**
+> Type A: Discrete 📝 Token + Continuous 🖼️🔊🧊 Feature
+
+> Type B: Discrete 📝 Token + Discrete 🖼️🔊🧊 Token
+
+**Output Type**
+> Type 1: Discrete 📝 Token Only
+
+> Type 2: Discrete 📝 Token + Continuous 🖼️🔊🧊 Feature
+
+> Type 3: Discrete 📝 Token + Discrete 🖼️🔊🧊 Token
 
 ## Large Vision-Language Models 🤗
 
