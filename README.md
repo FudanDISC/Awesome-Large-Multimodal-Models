@@ -19,7 +19,7 @@ This repo summarizes the construction of current LMMs from the perspective of
 - [Awesome Models 🤗](#awesome-models)
   - [Large Vision-Language Models 🤗](#large-vision-language-models-)
     - [Output Modality: 📝](#output-modality-)
-    - [Output Modality: 📝🖼️](#output-modality-)
+    - [Output Modality: 📝🖼️](#output-modality--1)
   - [Large Audio-Language Models 🤗](#large-audio-language-models-)
   - [Any Modality Models 🤗](#any-modality-models-)
 
