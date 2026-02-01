@@ -14,8 +14,6 @@ This repo summarizes the construction of current LMMs from the perspective of
     <img src="./assets/introduction.png" width="80%" height="80%">
 </p>
 
-### <a id="mode-text"></a>Output Modality: 📝
-### <a id="mode-image"></a>Output Modality: 📝🖼️
 
 - [Preliminary](#preliminary)
 - [Awesome Models 🤗](#awesome-models)
@@ -71,7 +69,7 @@ For readers to have a general picture about the development, we provide a tutori
 
 ## Large Vision-Language Models 🤗
 
-### Output Modality: 📝
+### <a id="mode-text"></a>Output Modality: 📝
 
 | **Model** | **Code** | **Input** | **Output** | **Architecture (LLM & Encoder & Conn.)** | **Res.** | **Date** |
 | :-- | :--: | :--: | :--: | :-- | :--: | :--: |
@@ -163,7 +161,7 @@ For readers to have a general picture about the development, we provide a tutori
 | [Qwen3-VL](https://arxiv.org/abs/2511.21631) | [🔗](https://github.com/QwenLM/Qwen-VL) | A | 1 | Qwen3 & SigLIP-2 & MLP | ∞ | 2025/11 |
 
 
-### Output Modality: 📝🖼️
+### <a id="mode-image"></a>Output Modality: 📝🖼️
 
 | **Model** | **Code** | **Input** | **Output** | **Architecture (LLM & Encoder & Decoder)** | **Date** |
 | :-- | :-- | :--: | :--: | :-- | :-- |
