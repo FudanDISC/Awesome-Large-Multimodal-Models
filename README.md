@@ -18,8 +18,8 @@ This repo summarizes the construction of current LMMs from the perspective of
 - [Preliminary](#preliminary)
 - [Awesome Models 🤗](#awesome-models)
   - [Large Vision-Language Models 🤗](#large-vision-language-models-)
-    - [Output Modality: 📝](#Output Modality:-)
-    - [Output Modality: 📝🖼️](#Output Modality:-)
+    - [Output Modality: 📝](#output-modality-)
+    - [Output Modality: 📝🖼️](#output-modality-)
   - [Large Audio-Language Models 🤗](#large-audio-language-models-)
   - [Any Modality Models 🤗](#any-modality-models-)
 
@@ -50,16 +50,16 @@ For readers to have a general picture about the development, we provide a tutori
 - ⚙️ **Model Training Settings Table:** [Google Sheets Link ⭐](https://docs.google.com/spreadsheets/d/1hMlhT_MzItdgiYt1XWUB3GoWEmK5jAr_eYzcFx2lM9w/edit?usp=sharing)
 
 **Input Type**
-> Type A: Discrete Text Token + Continuous X Feature
+> Type A: Discrete Text Token + Continuous 🖼️🔊🧊 Feature
 
-> Type B: Discrete Text Token + Discrete X Token
+> Type B: Discrete Text Token + Discrete 🖼️🔊🧊 Token
 
 **Output Type**
 > Type 1: Discrete Text Token Only
 
-> Type 2: Discrete Text Token + Continuous X Feature
+> Type 2: Discrete Text Token + Continuous 🖼️🔊🧊 Feature
 
-> Type 3: Discrete Text Token + Discrete X Token
+> Type 3: Discrete Text Token + Discrete 🖼️🔊🧊 Token
 
 **Modality**
 > Text: 📝
