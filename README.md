@@ -18,8 +18,8 @@ This repo summarizes the construction of current LMMs from the perspective of
 - [Preliminary](#preliminary)
 - [Awesome Models 🤗](#awesome-models)
   - [Large Vision-Language Models 🤗](#large-vision-language-models-)
-    - [Output Modality: 📝](#Output Modality: 📝)
-    - [Output Modality: 📝🖼️](#Output Modality: 📝🖼️)
+    - [Output Modality: 📝](#Output Modality:-)
+    - [Output Modality: 📝🖼️](#Output Modality:-)
   - [Large Audio-Language Models 🤗](#large-audio-language-models-)
   - [Any Modality Models 🤗](#any-modality-models-)
 
@@ -46,22 +46,28 @@ For readers to have a general picture about the development, we provide a tutori
 
 # Awesome Models (Sort by Time of Release) 📄
 
-- 🗂️ **Original Table:** [Google Sheets Link ⭐](https://xxx)
-- ⚙️ **Model Training Settings Table:** [Google Sheets Link ⭐](https://xxx)
+- 🗂️ **Original Table:** [Google Sheets Link ⭐](https://docs.google.com/spreadsheets/d/1KkaqTO9c5eJQdVdpDWPrb4SmO8mJ55NEk159epA9X4o/edit?usp=sharing)
+- ⚙️ **Model Training Settings Table:** [Google Sheets Link ⭐](https://docs.google.com/spreadsheets/d/1hMlhT_MzItdgiYt1XWUB3GoWEmK5jAr_eYzcFx2lM9w/edit?usp=sharing)
 
 **Input Type**
 > Type A: Discrete Text Token + Continuous X Feature
+
 > Type B: Discrete Text Token + Discrete X Token
 
 **Output Type**
 > Type 1: Discrete Text Token Only
+
 > Type 2: Discrete Text Token + Continuous X Feature
+
 > Type 3: Discrete Text Token + Discrete X Token
 
 **Modality**
 > Text: 📝
+
 > Vision: 🖼️
+
 > Audio: 🔊
+
 > 3D: 🧊
 
 ## Large Vision-Language Models 🤗
@@ -185,6 +191,8 @@ For readers to have a general picture about the development, we provide a tutori
 | [Qwen-Image](https://arxiv.org/abs/2508.02324) | [🔗](https://github.com/QwenLM/Qwen-Image) | A | 2 | Qwen2.5 VL & QwenViT + VAE & MMDiT | 2025/08 |
 | [BLIP3o-Next](https://arxiv.org/abs/2510.15857) | [🔗](https://github.com/JiuhaiChen/BLIP3o) | A | 2 | Qwen2.5 VL & VQ-Siglip2 + VAE & SANA DiT | 2025/10 |
 
+--
+
 ## Large Audio-Language Models 🤗
 
 | **Model** | **Code** | **Input** | **Output** | **Output Modality** | **Architecture (LLM & Encoder & Decoder)** | **Date** |
@@ -210,28 +218,7 @@ For readers to have a general picture about the development, we provide a tutori
 | [Audio Flamingo 3](https://arxiv.org/abs/2507.08128) | [🔗](https://github.com/NVIDIA/audio-flamingo/tree/audio_flamingo_3) | A | 1 | 📝🔊 | Qwen2.5 & AF-Whisper & Streaming TTS | 2025/07 |
 | [MiMo-Audio](https://arxiv.org/abs/2512.23808) | [🔗](https://github.com/XiaomiMiMo/MiMo-Audio) | B | 3 | 📝🔊 | MiMo-7B-Base & MiMo-A-Tokenizer & MiMo-A-Tokenizer | 2025/09 |
 
-## Any Modality Models
-| **Model** | **Code** | **Input** | **Output** | **Output Modality** | **Architecture (LLM & Encoder & Decoder)** | **Date** |
-| :--- | :---: | :---: | :---: | :--- | :--- | :--- |
-| [PandaGPT](https://arxiv.org/abs/2305.16355) | [🔗](https://github.com/yxuansu/PandaGPT) | A | 1 | 📝 | Vicuna & ImageBind & - | 2023/05 |
-| [ImageBind-LLM](https://arxiv.org/abs/2309.03905) | [🔗](https://github.com/OpenGVLab/LLaMA-Adapter/tree/main/imagebind_LLM) | A | 1 | 📝 | Chinese-LLaMA & ImageBind + PointBind & - | 2023/09 |
-| [NExT-GPT](https://arxiv.org/abs/2309.05519) | [🔗](https://github.com/NExT-GPT/NExT-GPT) | A | 2 | 📝🖼️🔊 | Vicuna & ImageBind & SD + AudioLDM + Zeriscope | 2023/09 |
-| [CoDi-2](https://arxiv.org/abs/2311.18775) | [🔗](https://github.com/microsoft/i-Code/tree/main/CoDi-2) | A | 2 | 📝🖼️🔊 | LLaMA-2 & ImageBind & SD + AudioLDM2 + zeroscope v2 | 2023/11 |
-| [Unified-IO 2](https://arxiv.org/abs/2312.17172) | [🔗](https://github.com/allenai/unified-io-2) | A | 3 | 📝🖼️🔊 | UnifiedIO2 & OpenCLIP ViT-B + AST & VQ-GAN + ViT-VQGAN | 2023/12 |
-| [AnyGPT](https://arxiv.org/abs/2402.12226) | [🔗](https://github.com/OpenMOSS/AnyGPT) | B | 3 | 📝🖼️🔊 | LLaMA-2 & SEED + Encodec + SpeechTokenizer & SEED + Encodec + SpeechTokenizer | 2024/02 |
-| [Uni-MoE](https://arxiv.org/abs/2405.11273) | [🔗](https://github.com/HITsz-TMG/UMOE-Scaling-Unified-Multimodal-LLMs) | A | 1 | 📝 | LLaMA & CLIP ViT-L/14 + Whisper-small + BEATs & - | 2024/05 |
-| [Mini-Omni2](https://arxiv.org/abs/2410.11190) | [🔗](https://github.com/gpt-omni/mini-omni2) | A | 3 | 📝🔊 | Qwen2 & CLIP ViT-B/32 + Whisper-small & SNAC | 2024/10 |
-| [Baichuan-Omni-1.5](https://github.com/baichuan-inc/Baichuan-Omni-1.5) | [🔗](https://github.com/baichuan-inc/Baichuan-Omni-1.5) | A | 1 | 📝🔊 | Baichuan LLM & QwenViT + Baichuan-A-Tokenizer & Baichuan-A-Tokenizer | 2025/01 |
-| [MiniCPM-o 2.6](https://openbmb.notion.site/MiniCPM-o-2-6-A-GPT-4o-Level-MLLM-for-Vision-Speech-and-Multimodal-Live-Streaming-on-Your-Phone-185ede1b7a558042b5d5e45e6b237da9) | [🔗](https://github.com/IsiSinclair/MiniCPM-o-2.6) | A | 2 | 📝🔊 | Qwen2.5 & SigLip-400M + Whisper-medium-300M & ChatTTS-200M | 2025/01 |
-| [Ola](https://arxiv.org/abs/2502.04328) | [🔗](https://github.com/Ola-Omni/Ola) | A | 1 | 📝🔊 | Qwen2.5 & OryxViT + Whisper-V3 + BEATs & CosyVoice | 2025/02 |
-| [Phi-4-Multimodal](https://arxiv.org/abs/2503.01743) | [🔗](https://github.com/microsoft/PhiCookBook) | A | 1 | 📝 | Phi-4 & SigLIP + ConFormer & - | 2025/03 |
-| [Qwen2.5-Omni](https://arxiv.org/abs/2503.20215) | [🔗](https://github.com/QwenLM/Qwen2.5-Omni) | A | 2 | 📝🔊 | Qwen2.5 & QwenViT + Whisper-large-v3 & Codec Decoder | 2025/05 |
-| [ShapeLLM-Omni](https://arxiv.org/abs/2506.01853) | [🔗](https://github.com/JAMESYJL/ShapeLLM-Omni) | A | 3 | 📝🧊 | Qwen2.5 VL & QwenViT + 3D VQVAE & 3D VQVAE | 2025/06 |
-| [UniUGG](https://arxiv.org/abs/2508.11952) | [🔗](https://github.com/fudan-zvg/UniUGG) | A | 2 | 📝🧊 | Qwen2.5 & RADIOv2.5-L + Spatial-VAE & Unet + Spatial-VAE | 2025/08 |
-| [Qwen3-Omni](https://arxiv.org/abs/2509.17765) | [🔗](https://github.com/QwenLM/Qwen3-Omni) | A | 2 | 📝🔊 | Qwen3 & QwenViT + AuT & Codec Decoder | 2025/09 |
-| [Next-Omni](https://arxiv.org/abs/2510.13721) | - | B | 3 | 📝🖼️🔊 | Qwen2.5 & VQ-Whisper-Turbo + VQ-CLIP & VQ-Whisper-Turbo + VQ-CLIP | 2025/10 |
-| [Omni-View](https://arxiv.org/abs/2511.07222) | [🔗](https://github.com/AIDC-AI/Omni-View) | A | 2 | 📝🖼️🧊 | Qwen2.5 VL & SigLIP + VAE & VAE + VGGT | 2025/11 |
-| [UniMoE-2.0-Omni](https://arxiv.org/abs/2511.12609) | [🔗](https://github.com/HITsz-TMG/Uni-MoE) | A | 3 | 📝🖼️🔊 | Qwen2.5-7B & SigLIP + Whisper-Large-v3 + VAE & Codec Decoder + DiT | 2025/11 |
+--
 
 ## Any-to-Any Modality Models 🤗
 
