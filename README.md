@@ -63,11 +63,8 @@ For readers to have a general picture about the development, we provide a tutori
 
 **Modality**
 > Text: 📝
-
 > Vision: 🖼️
-
 > Audio: 🔊
-
 > 3D: 🧊
 
 ## Large Vision-Language Models 🤗
@@ -191,7 +188,6 @@ For readers to have a general picture about the development, we provide a tutori
 | [Qwen-Image](https://arxiv.org/abs/2508.02324) | [🔗](https://github.com/QwenLM/Qwen-Image) | A | 2 | Qwen2.5 VL & QwenViT + VAE & MMDiT | 2025/08 |
 | [BLIP3o-Next](https://arxiv.org/abs/2510.15857) | [🔗](https://github.com/JiuhaiChen/BLIP3o) | A | 2 | Qwen2.5 VL & VQ-Siglip2 + VAE & SANA DiT | 2025/10 |
 
---
 
 ## Large Audio-Language Models 🤗
 
@@ -218,7 +214,6 @@ For readers to have a general picture about the development, we provide a tutori
 | [Audio Flamingo 3](https://arxiv.org/abs/2507.08128) | [🔗](https://github.com/NVIDIA/audio-flamingo/tree/audio_flamingo_3) | A | 1 | 📝🔊 | Qwen2.5 & AF-Whisper & Streaming TTS | 2025/07 |
 | [MiMo-Audio](https://arxiv.org/abs/2512.23808) | [🔗](https://github.com/XiaomiMiMo/MiMo-Audio) | B | 3 | 📝🔊 | MiMo-7B-Base & MiMo-A-Tokenizer & MiMo-A-Tokenizer | 2025/09 |
 
---
 
 ## Any-to-Any Modality Models 🤗
 
