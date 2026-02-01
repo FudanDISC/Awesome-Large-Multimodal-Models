@@ -14,12 +14,14 @@ This repo summarizes the construction of current LMMs from the perspective of
     <img src="./assets/introduction.png" width="80%" height="80%">
 </p>
 
+### <a id="mode-text"></a>Output Modality: 📝
+### <a id="mode-image"></a>Output Modality: 📝🖼️
 
 - [Preliminary](#preliminary)
 - [Awesome Models 🤗](#awesome-models)
   - [Large Vision-Language Models 🤗](#large-vision-language-models-)
-    - [Output Modality: 📝](#output-modality-)
-    - [Output Modality: 📝🖼️](#output-modality--1)
+    - [Output Modality: 📝](#mode-text)
+    - [Output Modality: 📝🖼️](#mode-image)
   - [Large Audio-Language Models 🤗](#large-audio-language-models-)
   - [Any Modality Models 🤗](#any-modality-models-)
 
