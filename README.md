@@ -1,6 +1,6 @@
 
 <div align="center">
-  <h1 style="display: inline-block; font-size: 32px;">Awesome Multimodal Large Language Models</h1>
+  <h1 style="display: inline-block; font-size: 32px;">Awesome-Multimodal-Large-Language-Models</h1>
 </div>
 This repo summarizes the construction of current LMMs from the perspective of 
 
