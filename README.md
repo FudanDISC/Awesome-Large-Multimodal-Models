@@ -17,7 +17,7 @@ This repo summarizes the construction of current LMMs from the perspective of
 
 - [Preliminary](#preliminary)
 - [Awesome Models 🤗](#awesome-models-sort-by-time-of-release-)
-  - [Architecture 🏗️](#architecture-)
+  - [Architecture 🏗️](#architecture)
     - [Large Vision-Language Models 🤗](#large-vision-language-models-)
       - [Output Modality: 📝](#mode-text)
       - [Output Modality: 📝🖼️](#mode-image)
@@ -66,7 +66,7 @@ For readers to have a general picture about the development, we provide a tutori
 
 > Type 3: Discrete 📝 Token + Discrete 🖼️🔊🧊 Token
 
-## Architecture 🏗️
+## <a id="architecture"></a>Architecture 🏗️
 
 ### Large Vision-Language Models 🤗
 
