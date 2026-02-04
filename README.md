@@ -1,6 +1,6 @@
 
 <div align="center">
-  <h1 style="display: inline-block; font-size: 32px;">Awesome-Large-Multimodal-Models</h1>
+  <h1 style="display: inline-block; font-size: 32px;">Awesome Multimodal Large Language Models</h1>
 </div>
 This repo summarizes the construction of current LMMs from the perspective of 
 
@@ -16,12 +16,14 @@ This repo summarizes the construction of current LMMs from the perspective of
 
 
 - [Preliminary](#preliminary)
-- [Awesome Models 🤗](#awesome-models)
-  - [Large Vision-Language Models 🤗](#large-vision-language-models-)
-    - [Output Modality: 📝](#mode-text)
-    - [Output Modality: 📝🖼️](#mode-image)
-  - [Large Audio-Language Models 🤗](#large-audio-language-models-)
-  - [Any Modality Models 🤗](#any-modality-models-)
+- [Awesome Models 🤗](#awesome-models-sort-by-time-of-release-)
+  - [Architecture 🏗️](#architecture-)
+    - [Large Vision-Language Models 🤗](#large-vision-language-models-)
+      - [Output Modality: 📝](#mode-text)
+      - [Output Modality: 📝🖼️](#mode-image)
+    - [Large Audio-Language Models 🤗](#large-audio-language-models-)
+    - [Any Modality Models 🤗](#any-modality-models-)
+  - [Training Details 🔧](#training-details-)
 
 
 # Preliminary
@@ -46,9 +48,6 @@ For readers to have a general picture about the development, we provide a tutori
 
 # Awesome Models (Sort by Time of Release) 📄
 
-- 🗂️ **Original Table:** [Google Sheets Link ⭐](https://docs.google.com/spreadsheets/d/1KkaqTO9c5eJQdVdpDWPrb4SmO8mJ55NEk159epA9X4o/edit?usp=sharing)
-- ⚙️ **Model Training Settings Table:** [Google Sheets Link ⭐](https://docs.google.com/spreadsheets/d/1hMlhT_MzItdgiYt1XWUB3GoWEmK5jAr_eYzcFx2lM9w/edit?usp=sharing)
-
 **Modality**
 > Text: 📝
 > Vision: 🖼️
@@ -67,9 +66,11 @@ For readers to have a general picture about the development, we provide a tutori
 
 > Type 3: Discrete 📝 Token + Discrete 🖼️🔊🧊 Token
 
-## Large Vision-Language Models 🤗
+## Architecture 🏗️
 
-### <a id="mode-text"></a>Output Modality: 📝
+### Large Vision-Language Models 🤗
+
+#### <a id="mode-text"></a>Output Modality: 📝
 
 | **Model** | **Code** | **Input** | **Output** | **Architecture (LLM & Encoder & Conn.)** | **Res.** | **Date** |
 | :-- | :--: | :--: | :--: | :-- | :--: | :--: |
@@ -161,7 +162,7 @@ For readers to have a general picture about the development, we provide a tutori
 | [Qwen3-VL](https://arxiv.org/abs/2511.21631) | [🔗](https://github.com/QwenLM/Qwen-VL) | A | 1 | Qwen3 & SigLIP-2 & MLP | ∞ | 2025/11 |
 
 
-### <a id="mode-image"></a>Output Modality: 📝🖼️
+#### <a id="mode-image"></a>Output Modality: 📝🖼️
 
 | **Model** | **Code** | **Input** | **Output** | **Architecture (LLM & Encoder & Decoder)** | **Date** |
 | :-- | :-- | :--: | :--: | :-- | :-- |
@@ -189,7 +190,7 @@ For readers to have a general picture about the development, we provide a tutori
 | [BLIP3o-Next](https://arxiv.org/abs/2510.15857) | [🔗](https://github.com/JiuhaiChen/BLIP3o) | A | 2 | Qwen2.5 VL & VQ-Siglip2 + VAE & SANA DiT | 2025/10 |
 
 
-## Large Audio-Language Models 🤗
+### Large Audio-Language Models 🤗
 
 | **Model** | **Code** | **Input** | **Output** | **Output Modality** | **Architecture (LLM & Encoder & Decoder)** | **Date** |
 | :-- | :-- | :--: | :-: | :-- | :-- | :-- |
@@ -215,7 +216,7 @@ For readers to have a general picture about the development, we provide a tutori
 | [MiMo-Audio](https://arxiv.org/abs/2512.23808) | [🔗](https://github.com/XiaomiMiMo/MiMo-Audio) | B | 3 | 📝🔊 | MiMo-7B-Base & MiMo-A-Tokenizer & MiMo-A-Tokenizer | 2025/09 |
 
 
-## Any-to-Any Modality Models 🤗
+### Any-to-Any Modality Models 🤗
 
 | **Model** | **Code** | **Input** | **Input Modality** | **Output** | **Output Modality** | **Architecture (LLM & Encoder & Decoder)** | **Date** |
 | :--- | :---: | :---: | :--- | :---: | :--- | :--- | :--- |
@@ -239,6 +240,12 @@ For readers to have a general picture about the development, we provide a tutori
 | [Omni-View](https://arxiv.org/abs/2511.07222) | [🔗](https://github.com/AIDC-AI/Omni-View) | A | 📝🖼️ | 2 | 📝🖼️🧊 | Qwen2.5 VL & SigLIP + VAE & VAE + VGGT | 2025/11 |
 | [UniMoE-2.0-Omni](https://arxiv.org/abs/2511.12609) | [🔗](https://github.com/HITsz-TMG/Uni-MoE) | A | 📝🖼️🔊 | 3 | 📝🖼️🔊 | Qwen2.5-7B & SigLIP + Whisper-Large-v3 + VAE & Codec Decoder + DiT | 2025/11 |
 
+
+This repository includes a complete and structured overview of the architectural designs of existing MLLMs. For the 🗂️ **Original Table**, please refer to [Google Sheets Link ⭐](https://docs.google.com/spreadsheets/d/1KkaqTO9c5eJQdVdpDWPrb4SmO8mJ55NEk159epA9X4o/edit?usp=sharing).
+
+
+## Training Details 🔧
+Due to the length and complexity of the training details, we provide them in a separate table. Please refer to the ⚙️ **Model Training Settings Table**: [Google Sheets Link ⭐](https://docs.google.com/spreadsheets/d/1hMlhT_MzItdgiYt1XWUB3GoWEmK5jAr_eYzcFx2lM9w/edit?usp=sharing)
 
 ## Contributing
 
