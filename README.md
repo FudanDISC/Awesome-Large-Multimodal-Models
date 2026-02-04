@@ -2,7 +2,7 @@
 <div align="center">
   <h1 style="display: inline-block; font-size: 32px;">Awesome-Multimodal-Large-Language-Models</h1>
 </div>
-This repo summarizes the construction of current LMMs from the perspective of 
+This repo summarizes the construction of current MLLMs from the perspective of 
 
 <font size=7><div align='center' >***input-output representation space extension***</div></font>
 
@@ -38,9 +38,9 @@ For readers to have a general picture about the development, we provide a tutori
 
 
 * Part 1: [Vision-Language Pre-Training](https://github.com/FudanDISC/Awesome-Large-Multimodal-Models/blob/main/assets/tutorial-part1.pdf)
-* Part 2: [Architectures and Traning of LMMs](https://github.com/FudanDISC/Awesome-Large-Multimodal-Models/blob/main/assets/tutorial-part2.pdf)
-* Part 3: [Evaluation of LMMs](https://github.com/FudanDISC/Awesome-Large-Multimodal-Models/blob/main/assets/tutorial-part3.pdf)
-* Part 4: [Further Capability of LMMs](https://github.com/FudanDISC/Awesome-Large-Multimodal-Models/blob/main/assets/tutorial-part4.pdf)
+* Part 2: [Architectures and Traning of MLLMs](https://github.com/FudanDISC/Awesome-Large-Multimodal-Models/blob/main/assets/tutorial-part2.pdf)
+* Part 3: [Evaluation of MLLMs](https://github.com/FudanDISC/Awesome-Large-Multimodal-Models/blob/main/assets/tutorial-part3.pdf)
+* Part 4: [Further Capability of MLLMs](https://github.com/FudanDISC/Awesome-Large-Multimodal-Models/blob/main/assets/tutorial-part4.pdf)
 * Part 5: [Extension to Embodied Agents](https://github.com/FudanDISC/Awesome-Large-Multimodal-Models/blob/main/assets/tutorial-part5.pdf)
 
 
