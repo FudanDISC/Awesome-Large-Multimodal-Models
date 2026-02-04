@@ -16,7 +16,7 @@ This repo summarizes the construction of current LMMs from the perspective of
 
 
 - [Preliminary](#preliminary)
-- [Awesome Models 🤗](#awesome-models-sort-by-time-of-release-)
+- [Awesome Models (Sort by Time of Release) 📄](#awesome-models-sort-by-time-of-release-)
   - [Architecture 🏗️](#architecture)
     - [Large Vision-Language Models 🤗](#large-vision-language-models-)
       - [Output Modality: 📝](#mode-text)
